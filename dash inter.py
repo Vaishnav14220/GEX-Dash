@@ -19,6 +19,8 @@ cookies = {
 
 # Define the Dash app
 app = dash.Dash(__name__)
+server = app.server
+
 
 def calculate_gamma_exposure(chain):
     gamma_exposure = {}
